@@ -50,6 +50,7 @@ endif
 endif
 	@packer build -var-file=vhdbuilder/packer/settings.json vhdbuilder/packer/windows-vhd-builder-sig.json
 endif
+.PHONY: build-packer-windows
 
 az-login:
 ifeq (${OS_TYPE},Windows)

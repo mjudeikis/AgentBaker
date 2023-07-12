@@ -20,7 +20,11 @@
         "windows_patch_url": "{{env `WINDOWS_PATCH_URL`}}",
         "vnet_name": "{{env `VNET_NAME`}}",
         "subnet_name": "{{env `SUBNET_NAME`}}",
-        "vnet_resource_group_name": "{{env `VNET_RESOURCE_GROUP_NAME`}}"
+        "vnet_resource_group_name": "{{env `VNET_RESOURCE_GROUP_NAME`}}",
+        "captured_sig_version": "{{env `CAPTURED_SIG_VERSION`}}",
+        "windows_image_publisher":"{{env `IMG_PUBLISHER`}}",
+        "windows_image_offer":"{{env `IMG_OFFER`}}",
+        "os_disk_size_gb":"35"
     },
     "builders": [
         {
